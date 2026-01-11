@@ -39,6 +39,30 @@ The website is fully responsive, visually clean, and enhanced with smooth animat
   <li>Active navigation highlighting</li>
   <li>Form validation using HTML5 required fields</li>
 </ul>
+  <h1>Project Structure</h1>
+portfolio/
+│
+├── index.html          <!-- Main HTML file for the portfolio -->
+├── style.css           <!-- All styling and layout -->
+├── script.js           <!-- JavaScript for animations and interactivity -->
+├── submit.html         <!-- Submission page for contact form -->
+├── assets/             <!-- Folder containing all images and icons -->
+│   ├── kul-image1.jpeg
+│   ├── kul-image2.jpeg
+│   ├── College.avif
+│   ├── Logo.png
+│   ├── python.jpeg
+│   ├── Java.png
+│   ├── C.jpeg
+│   ├── C++.png
+│   ├── Html.png
+│   ├── Css.png
+│   ├── JavaScript.webp
+│   ├── git.png
+│   ├── Github.jpg
+│   ├── VS.jpeg
+│   └── contact.png
+└── README.md          <!-- Project documentation (this file) -->
 
 </p>
 <h1>🚀 How to Run Locally</h1>
