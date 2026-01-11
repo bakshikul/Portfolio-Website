@@ -14,12 +14,12 @@ The website is fully responsive, visually clean, and enhanced with smooth animat
 <ls>◉ Clean and modern UI design</ls><br>
 </ul>
 <h1>🛠️ Technologies Used</h1>
-<p>
-✔ HTML5 – Structure and content<br>
-✔ CSS3 – Styling and layout<br>
-✔ JavaScript (ES6) – Interactivity and animations<br>
-✔ Font Awesome – Icons<br>
-</p>
+<ul>
+<ls>✔ HTML5 – Structure and content<br></ls>
+<ls>✔ CSS3 – Styling and layout<br></ls>
+<ls>✔ JavaScript (ES6) – Interactivity and animations<br></ls>
+<ls>✔ Font Awesome – Icons<br></ls>
+</ul>
 <h1>📸 Sections Included</h1>
 •Home – Introduction and role
 • About Me – Personal overview and background
@@ -37,15 +37,15 @@ The website is fully responsive, visually clean, and enhanced with smooth animat
 ✧ Form validation using HTML5 required fields<br>
 </p>
 <h1>🚀 How to Run Locally</h1>
-<h2>1. Clone the repository:</h2><br>
+<h4>1. Clone the repository:</h4><br>
 <p>https://github.com/bakshikul/Portfolio-Website.git</p><br>
-<h2>2. Open index.html in your browser</h2><br>
+<h4>2. Open index.html in your browser</h4><br>
 <h1>📧 Contact</h1><br>
-<h3>
+<p>
 ❖ Email: kulbakshi01@gmail.com<br>
 ❖ Location: Haryana, India
-</h3>
+</p>
 <h1>📜 License</h1>
-<h3>This project is open-source and available for learning and personal use.</h3>
+<p>This project is open-source and available for learning and personal use.</p>
 <hr>
 <h2>⭐ If you like this project, feel free to star the repository!</h2>
