@@ -3,7 +3,7 @@
 The website is fully responsive, visually clean, and enhanced with smooth animations and interactivity using JavaScript.</p>
 <br>
 <h1>📌 Features</h1><br>
-<ul><ls>◉Responsive navigation bar,</ls><br>
+<ul><ls>◉ Responsive navigation bar,</ls><br>
 <ls>◉ Hero section with typing animation,</ls><br>
 <ls>◉ About section with hover image effect,</ls><br>
 <ls>◉ Skills section with technology icons,</ls><br>
@@ -37,4 +37,15 @@ The website is fully responsive, visually clean, and enhanced with smooth animat
 ✧ Form validation using HTML5 required fields<br>
 </p>
 <h1>🚀 How to Run Locally</h1>
-<h2>Clone the repository:</h2><br>
+<h2>1. Clone the repository:</h2><br>
+<p>https://github.com/bakshikul/Portfolio-Website.git</p><br>
+<h2>2. Open index.html in your browser</h2><br>
+<h1>📧 Contact</h1><br>
+<h3>
+❖ Email: kulbakshi01@gmail.com<br>
+❖ Location: Haryana, India
+</h3>
+<h1>📜 License</h1>
+<h3>This project is open-source and available for learning and personal use.</h3>
+<hr>
+<h2>⭐ If you like this project, feel free to star the repository!</h2>
