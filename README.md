@@ -40,7 +40,7 @@ The website is fully responsive, visually clean, and enhanced with smooth animat
 <h4>1. Clone the repository:</h4><br>
 <p>https://github.com/bakshikul/Portfolio-Website.git</p><br>
 <h4>2. Open index.html in your browser</h4><br>
-<h1>📧 Contact</h1><br>
+<h1>📧 Contact</h1>
 <p>
 ❖ Email: kulbakshi01@gmail.com<br>
 ❖ Location: Haryana, India
