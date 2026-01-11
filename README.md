@@ -13,3 +13,17 @@ The website is fully responsive, visually clean, and enhanced with smooth animat
 <ls>Smooth scrolling and section animations,</ls><br>
 <ls>Clean and modern UI design</ls><br>
 </ul>
+<h1>🛠️ Technologies Used</h1>
+<p>
+  HTML5 – Structure and content<br>
+CSS3 – Styling and layout<br>
+JavaScript (ES6) – Interactivity and animations<br>
+Font Awesome – Icons<br>
+</p>
+<h1>📸 Sections Included</h1>
+Home – Introduction and role
+About Me – Personal overview and background
+Skills – Programming languages and developer tools
+Education – Academic details
+Contact – User-friendly contact form
+Footer – Quick links and contact information
