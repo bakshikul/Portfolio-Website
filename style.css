@@ -25,6 +25,7 @@ html {
     background-image: url(assets/Logo.png);
     background-size: cover;
 }
+
 .scroll-top {
     position: fixed;
     bottom: 30px;
@@ -420,7 +421,57 @@ html {
     width: 600px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    /* border-right: 1.5px solid black; */
+    border-right: 35px solid white;
+}
+
+#projects {
+    height: 650px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color: rgba(208, 205, 205, 0.84);
+}
+#headpro{
+    color:black;
+    text-align: center;
+    font-size: 3rem;
+    height:90px;
+    width:100%;
+}
+#projects h3 {
+    text-align: left;
+    font-size: 1.8rem;
+    color: rgb(35, 35, 218);
+}
+#projects h2{
+    color:rgb(43, 112, 43);
+    font-size: 1.5rem;;
+    /* text-align: center; */
+}
+#projects p{
+    color:rgb(65, 60, 60);
+    font-size: 1rem;;
+}
+#projects a{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+}
+.project-detail {
+    height: 420px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 140px;
+    border:2px solid black;
+}
+
+.project-detail img {
+    height: 50%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .detail {
@@ -437,53 +488,60 @@ html {
     font-size: 1rem;
     color: green;
 }
-#contact{
-    height:700px;
-    width:100%;
-    border-bottom:1px solid black;
+
+#contact {
+    height: 700px;
+    width: 100%;
+    border-bottom: 1px solid black;
     background-color: #f2f2f2;
 }
-#contact h1{
-    text-align:center;
+
+#contact h1 {
+    text-align: center;
     font-size: 3rem;
 }
 
-.box{
-    height:500px;
-    width:70%;
+.box {
+    height: 500px;
+    width: 70%;
     background-color: #ffff;
     display: flex;
-    margin:20px 0px 0px 195px;
+    margin: 20px 0px 0px 195px;
     border-radius: 20px;
 }
 
-.info{
-    margin-top:50px;
+.info {
+    margin-top: 50px;
 }
-.info input{
-    height:50px;
-    width:500px;
+
+.info input {
+    height: 50px;
+    width: 500px;
     border-radius: 5px;
     text-align: center;
     background-color: #f4f5f7;
 }
-.box img{
-    height:500px;
-    width:480px;
+
+.box img {
+    height: 500px;
+    width: 480px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-.mess input{
-    height:100px;
+
+.mess input {
+    height: 100px;
     /* text-align: left; */
 }
-button{
-    height:40px;
-    width:80px;
+
+button {
+    height: 40px;
+    width: 80px;
     border-radius: 5px;
-    margin:25px 0px 0px 320px;
+    margin: 25px 0px 0px 320px;
     background-color: #f4f5f7;
 }
+
 .end {
     height: 250px;
     width: 100%;
@@ -523,7 +581,6 @@ button{
     color: white;
     text-decoration: none;
 }
-
 .footer3 i {
     color: orange;
 }
@@ -534,6 +591,7 @@ button{
     margin: 20px 0px 0px;
     font-weight: 200;
 }
+
 .scroll-top {
     display: none;
 }
@@ -565,34 +623,43 @@ button {
         transform: translate(-50%, -50%) scale(0);
         opacity: 1;
     }
+
     to {
         transform: translate(-50%, -50%) scale(2.5);
         opacity: 0;
     }
 }
-.last{
+
+.last {
     display: flex;
-    height:40px;
+    height: 40px;
     justify-content: space-evenly;
-    width:100%;
+    width: 100%;
     text-align: center;
-    border-bottom:2px solid black;
+    border-bottom: 2px solid black;
 }
-.last h1{
-    color:black;
+
+.last h1 {
+    color: black;
     font-weight: 800;
 }
-.last i{
+
+.last i {
     font-size: 2rem;
-    color:black;
+    color: black;
     /* margin-top:10px; */
 }
-.copyright{
+
+.copyright {
     font-size: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.copyright i{
-    color:red;
+
+.copyright i {
+    color: red;
 }
+/* #projects .project-content .pro-head{
+    color:black;
+} */
