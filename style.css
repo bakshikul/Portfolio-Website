@@ -1,0 +1,598 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-content {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* position: fixed; */
+    background-color: #ffff;
+    position: fixed;
+}
+
+.nav-content .logo {
+    height: 38px;
+    width: 38px;
+    background-image: url(assets/Logo.png);
+    background-size: cover;
+}
+.scroll-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 3rem;
+    color: rgb(11, 11, 86);
+    cursor: pointer;
+    z-index: 1000;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.scroll-top:hover {
+    transform: scale(1.15);
+    color: rgb(228, 156, 23);
+}
+
+.nav-content .name {
+    width: 60%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.nav-content a {
+    text-decoration: none;
+    color: black;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+#home {
+    background-color: #f7f3ee;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.hero h1 {
+    color: rgb(11, 11, 86);
+    font-size: 5rem;
+    margin: 10px 0px 0px 100px;
+}
+
+.hero h2 {
+    color: green;
+    font-size: 3.5rem;
+    margin-left: 100px;
+    font-weight: 200;
+}
+
+.hero .name {
+    color: rgb(228, 156, 23);
+    margin: 10px 0px 0px 100px;
+    font-weight: 300;
+}
+
+.hero .home-about {
+    height: 400px;
+    width: 60%;
+    font-size: 1.85rem;
+    color: rgb(62, 59, 68);
+    margin-left: 100px;
+}
+
+#typing {
+    border-right: 2px solid #000;
+    padding-right: 5px;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.kul-image {
+    background-image: url(assets/kul-image1.jpeg);
+    background-size: cover;
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    right: 90px;
+}
+
+#about {
+    background-color: #f2f2f2;
+    padding: 50px 10%;
+    border-bottom: 1px solid black;
+}
+
+#about h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+#about img {
+    height: 480px;
+    width: 430px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+#about .name {
+    font-weight: 700;
+    color: rgba(17, 17, 168, 0.7);
+    font-size: 3rem;
+}
+
+.desig {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: rgb(84, 82, 82);
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.4rem;
+    line-height: 1.7;
+    color: #333;
+}
+
+@media (max-width: 900px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #about img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#about .about-container .about-content .mail {
+    color: blue;
+}
+
+#about .about-container .about-content .place {
+    color: blue;
+}
+
+.skill {
+    height: 880px;
+    width: 100%;
+    background-color: #ffff;
+    border-bottom: 1px solid black;
+}
+
+.skill h1 {
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+}
+
+.skill h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: rgb(55, 55, 129);
+    margin: 10px 0px 0px 20px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.python {
+    height: 150px;
+    width: 150px;
+    background-image: url(assets/python.jpeg);
+    background-size: cover;
+    border-radius: 15px;
+    background-color: #ffff;
+}
+
+.Java {
+    height: 150px;
+    width: 150px;
+    background-image: url(assets/Java.png);
+    background-size: cover;
+    border-radius: 15px;
+    background-color: #ffff;
+}
+
+.C {
+    height: 150px;
+    width: 150px;
+    background-image: url(assets/C.jpeg);
+    background-size: cover;
+    border-radius: 15px;
+    background-color: #ffff;
+}
+
+.C2 {
+    height: 150px;
+    width: 150px;
+    background-image: url(assets/C++.png);
+    background-size: cover;
+    border-radius: 15px;
+    background-color: #ffff;
+}
+
+.HTML {
+    height: 150px;
+    width: 150px;
+    background-image: url(assets/Html.png);
+    background-size: cover;
+    border-radius: 15px;
+    background-color: #ffff;
+}
+
+.CSS {
+    height: 150px;
+    width: 150px;
+    background-image: url(assets/Css.png);
+    background-size: cover;
+    border-radius: 15px;
+    background-color: #ffff;
+}
+
+.JavaScript {
+    height: 150px;
+    width: 150px;
+    background-image: url(assets/JavaScript.webp);
+    background-size: cover;
+    border-radius: 15px;
+    background-color: #ffff;
+}
+
+.lang-names {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.python1 {
+    height: 90px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.Java1 {
+    height: 90px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.C1 {
+    height: 90px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.C21 {
+    height: 90px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.HTML1 {
+    height: 90px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.CSS1 {
+    height: 90px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.JavaScript1 {
+    height: 90px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.Git {
+    height: 150px;
+    width: 150px;
+    background-image: url(assets/git.png);
+    background-size: cover;
+    border-radius: 15px;
+    background-color: #ffff;
+}
+
+.GitHub {
+    height: 150px;
+    width: 150px;
+    background-image: url(assets/Github.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    background-color: #ffff;
+}
+
+.VS-Code {
+    height: 150px;
+    width: 150px;
+    background-image: url(assets/VS.jpeg);
+    background-size: cover;
+    border-radius: 15px;
+    background-color: #ffff;
+}
+
+.DV-logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Git1 {
+    height: 90px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.GitHub1 {
+    height: 90px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.VS-Code1 {
+    height: 90px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.education-content {
+    height: 730px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    background-color: #e4e4e8;
+}
+
+.education-content h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.university-logo {
+    height: 300px;
+    width: 80%;
+    margin: 50px 50px 0px 150px;
+    background-color: #ffff;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+.university-logo img {
+    height: 300px;
+    width: 600px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* border-right: 1.5px solid black; */
+}
+
+.detail {
+    color: rgba(12, 12, 239, 0.837);
+    font-size: 2.5rem;
+}
+
+.c-name {
+    font-size: 1.5rem;
+    color: rgba(127, 124, 124, 0.967);
+}
+
+.year {
+    font-size: 1rem;
+    color: green;
+}
+#contact{
+    height:700px;
+    width:100%;
+    border-bottom:1px solid black;
+    background-color: #f2f2f2;
+}
+#contact h1{
+    text-align:center;
+    font-size: 3rem;
+}
+
+.box{
+    height:500px;
+    width:70%;
+    background-color: #ffff;
+    display: flex;
+    margin:20px 0px 0px 195px;
+    border-radius: 20px;
+}
+
+.info{
+    margin-top:50px;
+}
+.info input{
+    height:50px;
+    width:500px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f4f5f7;
+}
+.box img{
+    height:500px;
+    width:480px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.mess input{
+    height:100px;
+    /* text-align: left; */
+}
+button{
+    height:40px;
+    width:80px;
+    border-radius: 5px;
+    margin:25px 0px 0px 320px;
+    background-color: #f4f5f7;
+}
+.end {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #111827;
+}
+
+.footer1 {
+    color: white;
+    margin: 20px 0px 0px 0px;
+}
+
+.footer1 h1 {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.footer1 p {
+    font-size: 1rem;
+}
+
+.footer2 h1 {
+    font-weight: 200;
+}
+
+.footer3 h1 {
+    font-weight: 200;
+}
+
+.footer2 {
+    color: white;
+    margin: 20px 0px 0px;
+}
+
+.footer2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer3 i {
+    color: orange;
+}
+
+.footer3 {
+    color: white;
+    font-size: 1rem;
+    margin: 20px 0px 0px;
+    font-weight: 200;
+}
+.scroll-top {
+    display: none;
+}
+
+.nav-content a.active {
+    color: rgb(228, 156, 23);
+    font-weight: bold;
+}
+
+button {
+    position: relative;
+    overflow: hidden;
+}
+
+.ripple {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    animation: rippleEffect 0.6s linear;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes rippleEffect {
+    from {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 1;
+    }
+    to {
+        transform: translate(-50%, -50%) scale(2.5);
+        opacity: 0;
+    }
+}
+.last{
+    display: flex;
+    height:40px;
+    justify-content: space-evenly;
+    width:100%;
+    text-align: center;
+    border-bottom:2px solid black;
+}
+.last h1{
+    color:black;
+    font-weight: 800;
+}
+.last i{
+    font-size: 2rem;
+    color:black;
+    /* margin-top:10px; */
+}
+.copyright{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.copyright i{
+    color:red;
+}
