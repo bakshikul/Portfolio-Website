@@ -39,30 +39,30 @@ The website is fully responsive, visually clean, and enhanced with smooth animat
   <li>Active navigation highlighting</li>
   <li>Form validation using HTML5 required fields</li>
 </ul>
-  <h1>Project Structure</h1>
-portfolio/
-│
-├── index.html          <!-- Main HTML file for the portfolio -->
-├── style.css           <!-- All styling and layout -->
-├── script.js           <!-- JavaScript for animations and interactivity -->
-├── submit.html         <!-- Submission page for contact form -->
-├── assets/             <!-- Folder containing all images and icons -->
-│   ├── kul-image1.jpeg
-│   ├── kul-image2.jpeg
-│   ├── College.avif
-│   ├── Logo.png
-│   ├── python.jpeg
-│   ├── Java.png
-│   ├── C.jpeg
-│   ├── C++.png
-│   ├── Html.png
-│   ├── Css.png
-│   ├── JavaScript.webp
-│   ├── git.png
-│   ├── Github.jpg
-│   ├── VS.jpeg
-│   └── contact.png
-└── README.md          <!-- Project documentation (this file) -->
+  <h1> 📂Project Structure</h1>
+portfolio/<br>
+│<br>
+├── index.html    <br>      <!-- Main HTML file for the portfolio -->
+├── style.css<br>           <!-- All styling and layout -->
+├── script.js <br>          <!-- JavaScript for animations and interactivity -->
+├── submit.html  <br>       <!-- Submission page for contact form -->
+├── assets/      <br>       <!-- Folder containing all images and icons -->
+│   ├── kul-image1.jpeg<br>
+│   ├── kul-image2.jpeg<br>
+│   ├── College.avif<br>
+│   ├── Logo.png<br>
+│   ├── python.jpeg<br>
+│   ├── Java.png<br>
+│   ├── C.jpeg<br>
+│   ├── C++.png<br>
+│   ├── Html.png<br>
+│   ├── Css.png<br>
+│   ├── JavaScript.webp<br>
+│   ├── git.png<br>
+│   ├── Github.jpg<br>
+│   ├── VS.jpeg<br>
+│   └── contact.png<br>
+└── README.md  <br>        <!-- Project documentation (this file) -->
 
 </p>
 <h1>🚀 How to Run Locally</h1>
