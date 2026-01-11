@@ -31,17 +31,31 @@ The website is fully responsive, visually clean, and enhanced with smooth animat
 </ul>
 <h1>✨ JavaScript Enhancements</h1>
 <p>
-✧ Typing text animation<br>
-✧ Image hover zoom effect<br>
-✧ Scroll-to-top visibility logic<br>
-✧ Section fade-in on scroll<br>
-✧ Active navigation highlighting<br>
-✧ Form validation using HTML5 required fields<br>
+<ul>
+  <li>Typing text animation</li>
+  <li>Image hover zoom effect</li>
+  <li>Scroll-to-top visibility logic</li>
+  <li>Section fade-in on scroll</li>
+  <li>Active navigation highlighting</li>
+  <li>Form validation using HTML5 required fields</li>
+</ul>
+
 </p>
 <h1>🚀 How to Run Locally</h1>
-<h4>1. Clone the repository:</h4>
-<p>https://github.com/bakshikul/Portfolio-Website.git</p>
-<h4>2. Open index.html in your browser</h4>
+<h4>1. Clone the repository</h4>
+<ul>
+  <li>
+    <a href="https://github.com/bakshikul/Portfolio-Website.git" target="_blank">
+      https://github.com/bakshikul/Portfolio-Website.git
+    </a>
+  </li>
+</ul>
+
+<h4>2. Open the project</h4>
+<ul>
+  <li>Open <strong>index.html</strong> in your web browser</li>
+</ul>
+
 <h1>📧 Contact</h1>
 <p>
 ❖ Email: kulbakshi01@gmail.com<br>
