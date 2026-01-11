@@ -21,12 +21,14 @@ The website is fully responsive, visually clean, and enhanced with smooth animat
 <ls>✔ Font Awesome – Icons<br></ls>
 </ul>
 <h1>📸 Sections Included</h1>
-•Home – Introduction and role
-• About Me – Personal overview and background<br>
-• Skills – Programming languages and developer tools<br>
-• Education – Academic details<br>
-• Contact – User-friendly contact form<br>
-• Footer – Quick links and contact information<br>
+  <ul>
+<ls>• Home – Introduction and role</ls>
+<ls>• About Me – Personal overview and background<br></ls>
+<ls>• Skills – Programming languages and developer tools<br></ls>
+<ls>• Education – Academic details<br></ls>
+<ls>• Footer – Quick links and contact information<br></ls>
+<ls>• Contact – User-friendly contact form<br></ls>
+</ul>
 <h1>✨ JavaScript Enhancements</h1>
 <p>
 ✧ Typing text animation<br>
