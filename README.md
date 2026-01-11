@@ -22,11 +22,11 @@ The website is fully responsive, visually clean, and enhanced with smooth animat
 </ul>
 <h1>📸 Sections Included</h1>
 •Home – Introduction and role
-• About Me – Personal overview and background
-• Skills – Programming languages and developer tools
-• Education – Academic details
-• Contact – User-friendly contact form
-• Footer – Quick links and contact information
+• About Me – Personal overview and background<br>
+• Skills – Programming languages and developer tools<br>
+• Education – Academic details<br>
+• Contact – User-friendly contact form<br>
+• Footer – Quick links and contact information<br>
 <h1>✨ JavaScript Enhancements</h1>
 <p>
 ✧ Typing text animation<br>
@@ -37,9 +37,9 @@ The website is fully responsive, visually clean, and enhanced with smooth animat
 ✧ Form validation using HTML5 required fields<br>
 </p>
 <h1>🚀 How to Run Locally</h1>
-<h4>1. Clone the repository:</h4><br>
-<p>https://github.com/bakshikul/Portfolio-Website.git</p><br>
-<h4>2. Open index.html in your browser</h4><br>
+<h4>1. Clone the repository:</h4>
+<p>https://github.com/bakshikul/Portfolio-Website.git</p>
+<h4>2. Open index.html in your browser</h4>
 <h1>📧 Contact</h1>
 <p>
 ❖ Email: kulbakshi01@gmail.com<br>
