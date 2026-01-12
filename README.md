@@ -22,11 +22,11 @@ The website is fully responsive, visually clean, and enhanced with smooth animat
 </ul>
 <h1>📸 Sections Included</h1>
   <ul>
-<ls>• Home – Introduction and role</ls>
+<ls>• Home – Introduction and role</ls><br>
 <ls>• About Me – Personal overview and background<br></ls>
-<ls>• Skills – Programming languages and developer tools<br></ls>
+<ls>• Skills – Programming languages and developer tools</ls><br>
 <ls>• Education – Academic details<br></ls>
-<ls>• Footer – Quick links and contact information<br></ls>
+<ls>• Footer – Quick links and contact information</ls><br>
 <ls>• Contact – User-friendly contact form<br></ls>
 </ul>
 <h1>✨ JavaScript Enhancements</h1>
