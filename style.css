@@ -428,7 +428,7 @@ html {
     height: 650px;
     width: 100%;
     border-bottom: 1px solid black;
-    background-color: rgba(208, 205, 205, 0.84);
+    background-color: rgba(230, 228, 228, 0.905);
 }
 #headpro{
     color:black;
@@ -459,7 +459,7 @@ html {
 .project-detail {
     height: 420px;
     width: 400px;
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     background-color: white;
