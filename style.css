@@ -473,7 +473,26 @@ html {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+.project-detail2 {
+    height: 420px;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 140px;
+    border:2px solid black;
+}
 
+.project-detail2 img {
+    height: 50%;
+    width: 100%;
+    /* border-top-left-radius: 15px; */
+    /* border-top-right-radius: 15px; */
+}
+.project-list{
+    display: flex;
+}
 .detail {
     color: rgba(12, 12, 239, 0.837);
     font-size: 2.5rem;
