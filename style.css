@@ -709,7 +709,13 @@ button {
     align-items: center;
     justify-content: center;
 }
-
+.border1{
+    border-bottom:1px solid transparent;
+}
+.border1:hover{
+    border: 1px solid black;    
+    padding: 0.1rem;
+}
 .copyright i {
     color: red;
 }
@@ -717,3 +723,72 @@ button {
 /* #projects .project-content .pro-head{
     color:black;
 } */
+ @media (max-width: 1200px) {
+    .hero h1, .hero h2, .hero .name, .hero .home-about {
+        margin-left: 60px;
+    }
+    .kul-image {
+        height: 320px;
+        width: 320px;
+        right: 40px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+    .nav-content {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 10px 0;
+    }
+    .nav-content .name {
+        width: 100%;
+    }
+    .kul-image {
+        position: static;
+        margin: 40px auto;
+    }
+    .logos, .lang-names, .DV-logos, .project-list {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .skill, #projects {
+        height: auto;
+        padding-bottom: 60px;
+    }
+    .university-logo {
+        flex-direction: column;
+        height: auto;
+    }
+    .box {
+        flex-direction: column;
+        height: auto;
+    }
+    .box img {
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+    }
+    .info input {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .hero h1 { font-size: 3rem; }
+    .hero h2 { font-size: 2rem; }
+    .hero .home-about {
+        width: 90%;
+        font-size: 1.2rem;
+    }
+    .project-detail,
+    .project-detail2,
+    .project-detail3 {
+        width: 90%;
+    }
+    .end {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
