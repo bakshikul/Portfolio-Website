@@ -3,3 +3,17 @@ h1{
     font-size: 3rem;
     font-weight: 900;
 }
+.home-back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    font-size: 2rem;
+}
+button{
+    color:black;
+    font-size: 1.2rem;
+    background-color: bisque;
+    border-radius: 8px;
+    /* size:2rem; */
+}
