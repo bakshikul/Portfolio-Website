@@ -425,8 +425,9 @@ html {
 }
 
 #projects {
-    height: 700px;
+    height: 1100px;
     width: 100%;
+    overflow: hidden;
     border-bottom: 1px solid black;
     background-color: rgba(230, 228, 228, 0.905);
 }
@@ -520,12 +521,32 @@ html {
     /* border-top-left-radius: 15px; */
     /* border-top-right-radius: 15px; */
 }
+.project-detail4 {
+    height: 420px;
+    width: 380px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin:50px 0px 0px 99px;
+    border: 2px solid black;
+}
 
-.project-list {
+.project-detail4 img {
+    height: 50%;
+    width: 100%;
+    border-bottom: 2px solid black;
+    /* border-top-left-radius: 15px; */
+    /* border-top-right-radius: 15px; */
+}
+.project-list1 {
     display: flex;
     justify-content: space-evenly;
 }
-
+.project-list2{
+    display: flex;
+    justify-content: space-evenly;
+}
 .detail {
     color: rgba(12, 12, 239, 0.837);
     font-size: 2.5rem;
