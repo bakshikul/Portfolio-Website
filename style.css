@@ -60,7 +60,8 @@ html {
 
 .border:hover {
     text-decoration: underline;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    color:royalblue;
 }
 
 #home {
@@ -731,11 +732,11 @@ button {
     justify-content: center;
 }
 .border1{
-    border-bottom:1px solid transparent;
+    border:1px solid transparent;
 }
 .border1:hover{
-    border: 1px solid black;    
-    padding: 0.1rem;
+    border: 1px solid black;   
+
 }
 .copyright i {
     color: red;
