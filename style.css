@@ -540,11 +540,29 @@ html {
     /* border-top-left-radius: 15px; */
     /* border-top-right-radius: 15px; */
 }
+.project-detail5 {
+    height: 420px;
+    width: 380px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin:50px 0px 0px 99px;
+    border: 2px solid black;
+}
+
+.project-detail5 img {
+    height: 50%;
+    width: 100%;
+    border-bottom: 2px solid black;
+    /* border-top-left-radius: 15px; */
+    /* border-top-right-radius: 15px; */
+}
 .project-list1 {
     display: flex;
     justify-content: space-evenly;
 }
-.project-list2{
+.Project-List2{
     display: flex;
     justify-content: space-evenly;
 }
