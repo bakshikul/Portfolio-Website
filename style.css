@@ -276,6 +276,14 @@ html {
     border-radius: 15px;
     background-color: #ffff;
 }
+.ReactJS {
+    height: 150px;
+    width: 150px;
+    background-image: url(assets/ReactJS.jpeg);
+    background-size: cover;
+    border-radius: 15px;
+    background-color: #ffff;
+}
 
 .lang-names {
     display: flex;
@@ -365,7 +373,14 @@ html {
     border-radius: 15px;
     background-color: #ffff;
 }
-
+.Vite {
+    height: 150px;
+    width: 150px;
+    background-image: url(assets/Vite.jpeg);
+    background-size: cover;
+    border-radius: 15px;
+    background-color: #ffff;
+}
 .DV-logos {
     display: flex;
     justify-content: space-evenly;
@@ -394,7 +409,13 @@ html {
     font-size: 1.5rem;
     font-weight: 700;
 }
-
+.Vite1 {
+    height: 90px;
+    width: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 .education-content {
     height: 730px;
     width: 100%;
