@@ -211,6 +211,7 @@ html {
 
 .logos {
     display: flex;
+    overflow: auto;
     justify-content: space-evenly;
 }
 
@@ -836,21 +837,27 @@ button {
 }
 
 /* Mobile */
-@media (max-width: 576px) {
-    .hero h1 { font-size: 3rem; }
-    .hero h2 { font-size: 2rem; }
-    .hero .home-about {
-        width: 90%;
-        font-size: 1.2rem;
-    }
-    .project-detail,
-    .project-detail2,
-    .project-detail3 {
-        width: 90%;
-    }
-    .end {
-        flex-direction: column;
-        height: auto;
-        text-align: center;
-    }
-}
+/* @media (max-width: 600px) {
+   .nav-content{
+    height: 50px;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+   }
+   .nav-content .logo{
+    height: 0px;
+    width:0px;
+   }
+   .name{
+    text-align: center;
+    height: 20px;
+    width:100%
+   }
+   .nav-content a{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+   }
+} */
