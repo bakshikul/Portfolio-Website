@@ -42,7 +42,7 @@ html {
     color: rgb(228, 156, 23);
 }
 
-.nav-content .name {
+.nav-content .name1 {
     width: 60%;
     font-size: 1.5rem;
     font-weight: 600;
@@ -289,7 +289,6 @@ html {
 .lang-names {
     display: flex;
     justify-content: space-evenly;
-
 }
 
 .python1 {
@@ -781,83 +780,180 @@ button {
 .copyright i {
     color: red;
 }
-
-/* #projects .project-content .pro-head{
-    color:black;
-} */
- @media (max-width: 1200px) {
-    .hero h1, .hero h2, .hero .name, .hero .home-about {
-        margin-left: 60px;
-    }
-    .kul-image {
-        height: 320px;
-        width: 320px;
-        right: 40px;
-    }
-}
-
-/* Tablet */
-@media (max-width: 992px) {
-    .nav-content {
-        flex-wrap: wrap;
-        height: auto;
-        padding: 10px 0;
-    }
-    .nav-content .name {
-        width: 100%;
-    }
-    .kul-image {
-        position: static;
-        margin: 40px auto;
-    }
-    .logos, .lang-names, .DV-logos, .project-list {
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-    .skill, #projects {
-        height: auto;
-        padding-bottom: 60px;
-    }
-    .university-logo {
-        flex-direction: column;
-        height: auto;
-    }
-    .box {
-        flex-direction: column;
-        height: auto;
-    }
-    .box img {
-        width: 100%;
-        border-radius: 20px 20px 0 0;
-    }
-    .info input {
-        width: 90%;
-        margin-left: 5%;
-    }
-}
-
-/* Mobile */
-/* @media (max-width: 600px) {
-   .nav-content{
-    height: 50px;
+/* Mobile-first adjustments */
+@media (max-width: 480px) {
+  /* Navigation */
+  .name1{
+    display: none;
+  }
+  .nav-content {
+    display:flex;
+    height: auto;
     width:100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    position: fixed;
-   }
-   .nav-content .logo{
-    height: 0px;
-    width:0px;
-   }
-   .name{
+    padding: 10px;
+    justify-content: space-between;
+    gap:2;
+    /* flex-wrap: nowrap; */
+    position: relative; /* avoid fixed nav on small screens */
+  }
+
+  .nav-content .logo {
+    display: none; /* remove logo image */
+  }
+  /* Hero section */
+  .hero h1 {
+    font-size: 2rem;
+    margin: 10px 10px 10px 10px ;
     text-align: center;
-    height: 20px;
-    width:100%
-   }
-   .nav-content a{
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+    margin: 10px;
+    text-align: center;
+  }
+
+  .hero .name {
+    margin: 15px;
+    text-align: center;
+  }
+
+  .hero .home-about {
+    width: 90%;
+    height:300px;
     font-size: 1rem;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .kul-image {
+    height: 180px;
+    width: 180px; /* remove large hero image */
+    margin-top:370px;
+    margin-right: 20px;
+}
+
+  /* About section */
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  #about img {
+     /* remove about image */
+  }
+
+  .about-content {
+    max-width: 100%;
+    font-size: 1rem;
+  }
+
+  /* Skills section */
+  .skill {
+    height: 90vh;
+    padding: 20px;
+  }
+
+  .logos, .DV-logos {
+    display: none; /* remove skill images and logos */
+  }
+.lang-names{
     display: flex;
+    flex-direction: column;
+    gap:2;
+    margin-top:10px;
+    height:220px;
+    width:auto;
+}
+.DV-logos-Names{
+    display: flex;
+    flex-direction: column;
+    gap:2;
+    margin-top:10px;
+    height:220px;
+    width:auto;
+}
+  .skill h1, .skill h2 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+
+  /* Education */
+  .university-logo {
+    flex-direction: column;
+    margin: 20px auto;
+    width: 90%;
+    height:auto
+  }
+
+  .university-logo img {
+    display: none; /* remove university image */
+  }
+
+  /* Projects */
+  #projects {
+    height: auto;
+    padding: 20px;
+  }
+
+  .project-list1, .Project-List2 {
+    flex-direction: column;
     align-items: center;
-   }
-} */
+    gap: 30px;
+  }
+
+  .project-detail, .project-detail2, .project-detail3,
+  .project-detail4, .project-detail5 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* Contact */
+  .box {
+    flex-direction: column;
+    width: 90%;
+    height:auto;
+    margin: 20px auto;
+  }
+
+  .box img {
+    display: none; /* remove contact image */
+  }
+
+  .info input {
+    width: 100%;
+  }
+
+  button {
+    margin: 20px auto;
+    display: block;
+  }
+
+  /* Footer */
+  .end {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 290px;
+  }
+
+  .footer1, .footer3 {
+    margin: 10px 10px;
+  }
+  .footer2 h1{
+    display: none;
+  }
+.footer2{
+    display: flex;
+}
+.footlink{
+    display:flex; 
+    gap: 10px ;
+}
+  .last {
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+  }
+}
